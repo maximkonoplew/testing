@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2024-01-01 12:00">
+  <shop>
+    <name>ТехноМаркет</name>
+    <company>ООО "ТехноМаркет"</company>
+    <url>https://technomarket.ru</url>
+    <currencies>
+      <currency id="RUR" rate="1"/>
+    </currencies>
+    <categories>
+      <category id="1">Смартфоны</category>
+    </categories>
+    <offers>
+      <offer id="iphone16-pink-128" available="true">
+        <name>Смартфон Apple iPhone 16 128 ГБ (розовый)</name>
+        <price>79990</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <url>https://technomarket.ru/smartfony/iphone16-pink</url>
+        <picture>https://technomarket.ru/images/iphone16-pink.jpg</picture>
+        <vendor>Apple</vendor>
+        <vendorCode>IP16-128-PK</vendorCode>
+        <description>Apple iPhone 16 с 128 ГБ встроенной памяти. Сдвоенная основная камера, поддержка двух SIM (nano SIM + eSIM), 6,1-дюймовый дисплей. Цвет: розовый.</description>
+        <country>Китай</country>
+        <param name="Цвет">розовый</param>
+        <param name="Объем встроенной памяти">128 ГБ</param>
+        <param name="Тип SIM-карт">Dual nano SIM + eSIM</param>
+        <param name="Диагональ экрана">6.1 дюйм</param>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
