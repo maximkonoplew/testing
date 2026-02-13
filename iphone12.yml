@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2017-02-05 17:22">
+    <shop>
+    <name>BestSeller</name>
+    <company>Tne Best inc.</company>
+    <url>http://best.seller.ru</url>
+    <categories>
+      <category id="1">Смартфоны</category>
+      <category id="101" parentId="1">Apple</category>
+      <category id="102" parentId="1">Xiaomi</category>
+    </categories>
+    <offers>
+      <offer id="iphone12" available="true">
+        <name>Apple iPhone 12</name>
+        <vendor>Apple</vendor>
+        <url>http://best.seller.ru/product_page.asp?pid=12348</url>
+        <price>83990</price>
+        <oldprice>89990</oldprice>
+        <currencyId>RUB</currencyId>
+        <categoryId>101</categoryId>
+        <picture>https://example.com/img/apple_phone.png</picture>
+        <delivery>true</delivery>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <barcode>0156789012</barcode>
+        <dimensions>8.27/5.31/1.73</dimensions>
+        <weight>135</weight>
+        <param name="Камера">Dual 12MP</param>
+        <param name="ОС">iOS 14</param>
+	  </offer>
+      <offer id="xiaomi12" available="true">
+		<name>Xiaomi 12X</name>
+        <vendor>Xiaomi</vendor>
+        <url>http://best.seller.ru/product_page.asp?pid=12345</url>
+        <price>62990</price>
+        <oldprice>69990</oldprice>
+        <currencyId>RUB</currencyId>
+        <categoryId>102</categoryId>
+        <picture>https://example.com/img/xiaomi_phone.png</picture>
+        <delivery>true</delivery>
+        <manufacturer_warranty>true</manufacturer_warranty>
+        <barcode>0123456789379</barcode>
+        <dimensions>152,7/69,9/8,16</dimensions>
+        <weight>176</weight>
+        <param name="Камера">50MP</param>
+        <param name="ОС">Snapdragon 870</param>
+	  </offer>
+    </offers>
+  </shop>
+</yml_catalog>
