@@ -5,7 +5,7 @@
     <company>Tne Best inc.</company>
     <url>http://best.seller.ru</url>
     <categories>
-      <category id="1">Смартфоны</category>
+      <category id="999">Смартфоны</category>
       <category id="101" parentId="1">Apple</category>
       <category id="102" parentId="1">Xiaomi</category>
     </categories>
